@@ -9,6 +9,42 @@ body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+h1 {
+  text-align: center;
+  color: #3c3c3c;
+  font-size: 60px;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 1px;
+}
+body {
+  font-size: 20px;
+  margin-bottom: auto;
+  font-family: "Quicksand";
+  text-align: center;
+}
+
+#outerbox {
+  border-color: black;
+  border-radius: 35px;
+  border-style: solid;
+  width: 550px;
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+}
+
+#box {
+  width: 450px;
+  max-width: 75%;
+  height: auto;
+  margin-top: auto;
+  margin: auto;
+  padding: 30px 15px 40px 15px;
+  background-color: #eef2fc;
+  font-size: 15px;
+  border-radius: 25px;
+}
 body {
   font-size: 20px;
   margin-bottom: 0;
