@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap");
 
 *,
 html,
@@ -10,9 +10,10 @@ body {
   -webkit-box-sizing: border-box;
 }
 body {
-  background: #1a1a1a;
-  font-family: "Montserrat", sans-serif;
-  color: white;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Quicksand";
+  text-align: center;
 }
 
 .container {
@@ -26,16 +27,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  height: 120px;
+  background-color: #f17070;
 }
 
 .flex-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .flex-container label {
   font-size: 16px;
-  font-family: "Montserrat Semibold", sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin-bottom: 5px;
 }
