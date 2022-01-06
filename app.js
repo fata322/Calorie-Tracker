@@ -9,7 +9,7 @@ document
 
     e.preventDefault();
   });
-
+const totalCalories = document.getElementById("total-calories");
 function calculateCalories(e) {
   const age = document.getElementById("age");
   const gender = document.querySelector(
@@ -18,7 +18,6 @@ function calculateCalories(e) {
   const weight = document.getElementById("weight");
   const height = document.getElementById("height");
   const activity = document.getElementById("list").value;
-  const totalCalories = document.getElementById("total-calories");
 
   if (
     age.value === "" ||
@@ -89,6 +88,10 @@ function calculateCalories(e) {
   document.getElementById("results").style.display = "block";
 
   document.getElementById("loading").style.display = "none";
+
+  document.getElementById("total-calories").innerHTML = Math.round(
+    totalCalories.value
+  );
 }
 
 function clearError() {

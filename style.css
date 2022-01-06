@@ -19,9 +19,9 @@ h1 {
 
 #outerbox {
   border-color: black;
-  border-radius: 50px;
+  border-radius: 25px;
   border-style: solid;
-  max-width: 90%;
+  max-width: 30%;
   margin: auto;
   display: flex;
   flex-direction: column;
