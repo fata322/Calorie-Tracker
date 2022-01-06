@@ -16,68 +16,39 @@ h1 {
   font-family: "Quicksand", sans-serif;
   margin-bottom: 1px;
 }
-body {
-  font-size: 20px;
-  margin-bottom: auto;
-  font-family: "Quicksand";
-  text-align: center;
-}
 
 #outerbox {
   border-color: black;
-  border-radius: 35px;
+  border-radius: 50px;
   border-style: solid;
-  width: 550px;
   max-width: 90%;
-  height: auto;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   padding: 10px 20px 10px 20px;
 }
 
 #box {
-  width: 450px;
+  width: 500px;
   max-width: 75%;
   height: auto;
   margin-top: auto;
   margin: auto;
-  padding: 30px 15px 40px 15px;
   background-color: #eef2fc;
   font-size: 15px;
   border-radius: 25px;
-}
-body {
-  font-size: 20px;
-  margin-bottom: 0;
-  font-family: "Quicksand";
-  text-align: center;
-}
-
-.container {
-  width: 500px;
-  margin: 0 auto;
-}
-
-header {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 120px;
-  background-color: #f17070;
-}
-
-.flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
-.flex-container label {
-  font-size: 16px;
-  font-family: "Quicksand", sans-serif;
-  margin-bottom: 5px;
+body {
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Quicksand";
+  text-align: center;
 }
